@@ -5,21 +5,21 @@
     <link rel="stylesheet" href="purdy.css"/>
   </head>
   <body>
-    <button onclick="showContent()">Show hidden content</button>
+    <h1>DONT CLICK THIS BUTTON</h1>
+    <button onclick="showContent()">hidden content</button>
         
 
-  <h1>links</h1>
+
 
   <script>
     function showContent() {
       let temp = document.getElementsByTagName("template")[0];
       let clon = temp.content.cloneNode(true);
       document.body.appendChild(clon);
-    }
-    </script
+    } </script
   
   
 </body>
-<template> <p>This example is about links and <a href='https://en.wikipedia.org/wiki/Image'>images</a>.</p></template>
+<template> <p>This example is about links and <a href='https://www.youtube.com/watch?v=dQw4w9WgXcQ'>images</a>.</p></template>
 
 </html>
